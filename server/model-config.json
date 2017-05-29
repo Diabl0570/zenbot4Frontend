@@ -42,5 +42,9 @@
   "resume_markers": {
     "dataSource": "MongoDb",
     "public": true
+  },
+  "sessions": {
+    "dataSource": "MongoDb",
+    "public": true
   }
 }

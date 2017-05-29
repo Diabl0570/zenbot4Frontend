@@ -1,0 +1,63 @@
+{
+  "name": "sessions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "_id": {
+      "type": "string",
+      "required": true
+    },
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "selector": {
+      "type": "string",
+      "required": true
+    },
+    "started": {
+      "type": "number",
+      "required": true
+    },
+    "mode": {
+      "type": "string",
+      "required": true
+    },
+    "options": {
+      "type": "object"
+    },
+    "updated": {
+      "type": "number"
+    },
+    "balance": {
+      "type": "object",
+      "required": true
+    },
+    "start_capital": {
+      "type": "number"
+    },
+    "start_price": {
+      "type": "number",
+      "required": true
+    },
+    "num_trades": {
+      "type": "number"
+    },
+    "orig_capital": {
+      "type": "number"
+    },
+    "orig_price": {
+      "type": "number"
+    },
+    "price": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
