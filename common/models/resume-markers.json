@@ -1,0 +1,42 @@
+{
+  "name": "resume_markers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "_id": {
+      "type": "string",
+      "required": true
+    },
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "selector": {
+      "type": "string",
+      "required": true
+    },
+    "from": {
+      "type": "number",
+      "required": true
+    },
+    "to": {
+      "type": "number",
+      "required": true
+    },
+    "oldest_time": {
+      "type": "number",
+      "required": true
+    },
+    "newest_time": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

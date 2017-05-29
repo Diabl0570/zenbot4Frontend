@@ -1,0 +1,41 @@
+{
+  "name": "trades",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "_id": {
+      "type": "string",
+      "required": true
+    },
+    "trade_id": {
+      "type": "number",
+      "required": true
+    },
+    "time": {
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "type": "number",
+      "required": true
+    },
+    "price": {
+      "type": "number",
+      "required": true
+    },
+    "side": {
+      "type": "string",
+      "required": true
+    },
+    "id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

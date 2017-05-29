@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MongoDb": {
+    "host": "localhost",
+    "port": 27018,
+    "url": "mongodb://localhost/zenbot4",
+    "database": "zenbot4",
+    "password": "",
+    "name": "MongoDb",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
