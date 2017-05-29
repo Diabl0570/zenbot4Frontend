@@ -1,0 +1,61 @@
+{
+  "name": "my_trades",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "_id": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "number",
+      "required": true
+    },
+    "execution_time": {
+      "type": "number"
+    },
+    "slippage": {
+      "type": "number",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "fee": {
+      "type": "number",
+      "required": true
+    },
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "selector": {
+      "type": "string",
+      "required": true
+    },
+    "session_id": {
+      "type": "string",
+      "required": true
+    },
+    "mode": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

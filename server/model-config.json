@@ -46,5 +46,9 @@
   "sessions": {
     "dataSource": "MongoDb",
     "public": true
+  },
+  "my_trades": {
+    "dataSource": "MongoDb",
+    "public": true
   }
 }
