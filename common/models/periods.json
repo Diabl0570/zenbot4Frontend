@@ -1,0 +1,93 @@
+{
+  "name": "periods",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "_id": {
+      "type": "string",
+      "required": true
+    },
+    "period_id": {
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "number",
+      "required": true
+    },
+    "open": {
+      "type": "number",
+      "required": true
+    },
+    "high": {
+      "type": "number",
+      "required": true
+    },
+    "low": {
+      "type": "number",
+      "required": true
+    },
+    "close": {
+      "type": "number",
+      "required": true
+    },
+    "volume": {
+      "type": "number",
+      "required": true
+    },
+    "close_time": {
+      "type": "number",
+      "required": true
+    },
+    "trend_ema": {
+      "type": "number"
+    },
+    "oversold_rsi_avg_gain": {
+      "type": "number"
+    },
+    "oversold_rsi_avg_loss": {
+      "type": "number"
+    },
+    "oversold_rsi": {
+      "type": "number"
+    },
+    "trend_ema_rate": {
+      "type": "number"
+    },
+    "trend_ema_stddev": {
+      "type": "number"
+    },
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "selector": {
+      "type": "string",
+      "required": true
+    },
+    "session_id": {
+      "type": "string",
+      "required": true
+    },
+    "rsi_avg_gain": {
+      "type": "number"
+    },
+    "rsi_avg_loss": {
+      "type": "number"
+    },
+    "rsi": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

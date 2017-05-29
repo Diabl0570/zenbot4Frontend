@@ -50,5 +50,9 @@
   "my_trades": {
     "dataSource": "MongoDb",
     "public": true
+  },
+  "periods": {
+    "dataSource": "MongoDb",
+    "public": true
   }
 }
